@@ -1,0 +1,88 @@
+/*Estilo del cuerpo de página */
+body {
+    font-family: 'Times New Roman', Times, serif; /* Fuente principal */
+    background-color: #ffffff; /* Fondo de color */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 20px; /* Espaciado interior */
+}
+
+/* Contenedor principal de la hoja de vida */
+.container {
+    max-width: 900px; /* Define el ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(230, 87, 25, 0.1); /* Sombra alrededor */
+}
+
+/* Imagen de perfil*/
+.imagen {
+    width: 150px; /* Ancho */
+    height: 150px; /* Altura */
+    border-radius: 30%; 
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+/* Encabezado con foto y datos personales */
+.header {
+    display: flex; /* Usa flexbox para alinear elementos */
+    align-items: center;  /* Centra verticalmente los items */
+    margin-bottom: 20px;  /* Margen inferior */
+}
+
+/* Estilo para los títulos */
+h2 {
+    color: #32091f; /* Color del texto */
+    border-bottom: 2px solid #a84a7c; /* Línea debajo del título */
+    padding-bottom: 5px; /* Define el espacio entre el texto y la línea */
+}
+
+/* Estilo para el contenido de lista */
+li {
+    list-style-type: "◆"; /*Simbolo del rombo */
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: "◆";
+    padding-left: 20px;
+}
+
+/* Define las secciones y su espacio*/
+.section {
+    margin-bottom: 20px; 
+    padding: 10px;
+    background-color: #f9f9f9; 
+}
+
+/* Tabla de referencias personales */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Une los bordes de las celdas */
+    margin-top: 10px;
+}
+
+/* Celdas de la tabla */
+th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Estilo para las celdas del encabezado de la tabla */
+th {
+    background-color: #a84a7c;
+    color: rgb(0, 0, 0);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px; /* Espacio superior */
+}
+
+.centrado {
+    text-align: center;
+}
+
